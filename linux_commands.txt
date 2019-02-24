@@ -1,0 +1,57 @@
+    1  ls -lrt
+    2  cd .ssh
+    3  ls -lrt
+    4  ssh-keygen -t rsa
+    5  ls -lrt
+    6  cat id_rsa.pub 
+    7  ssh ec2-3-82-139-82.compute-1.amazonaws.com
+    8  exit
+    9  yum install tree
+   10  tree 
+   11  man tree
+   12  tree -a
+   13  ls -alrt
+   14  rpm  -qa | grep -i tree
+   15  ls -lart
+   16  rpm  -qa | grep -i tree
+   17  exit
+   18  ls -lrt
+   19  cd .ssh
+   20  ls -lrt
+   21  dar
+   22  date
+   23  cat known_hosts 
+   24  hostnamectl devops_node1
+   25  hostnamectl
+   26  man hostnamectl
+   27  hostnamectl --static devops_node1
+   28  hostnamectl set-hostname devops_node1
+   29  systemctl status hostnamectl
+   30  reboot
+   31  ssh ec2-3-82-139-82.compute-1.amazonaws.com
+   32  yum update
+   33  reboot
+   34  ls -lrt
+   35  cd ~
+   36  pwd
+   37  vi testfile
+   38  cat testfile 
+   39  ssh ec2-3-82-139-82.compute-1.amazonaws.com
+   40  pwd
+   41  cd /opt
+   42  ls -lrt
+   43  pwd
+   44  mkdir devops
+   45  ls -lrt
+   46  df -hT
+   47  cd /opt
+   48  ls -alrt
+   49  mv devops vivek_devops
+   50  ls -lrt
+   51  cd vivek_devops/
+   52  ls -lrt
+   53  yum install git
+   54  ls -lrt
+   55  git init
+   56  ls -lrt
+   57  ls -lart
