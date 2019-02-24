@@ -1,0 +1,10 @@
+53  yum install git #Command to install git RPMS
+55  git init #Command to initiallize local repository
+62  git status #Command to check status of repository
+67  git add linux_commands.txt #Command to add to local repository
+71  git status
+72  git remote add origin_vivek https://github.com/viveksharma010/vivek_devops_repo.git
+76  git config --global user.email "viveksharma010@gmail.com"
+77  git config --global user.name "Vivek Sharma"
+78  git commit -m "My first commit"
+79  git push -u origin_vivek master #Command to push to remote repository
